@@ -1,0 +1,13 @@
+python bertclf-train.py --bert_name bert-base-uncased --uni_lt cornell texas wisconsin washington  misc --max_len 256 --batch_siz 8 --lr 5e-6 --num_epoch 100
+//普通命令
+
+python bertclf-train.py --bert_name prajjl1/bert-mini  --uni_lt cornell texas wisconsin washington  misc --max_len 256 --batch_siz 8 --lr 5e-6 --num_epoch 100
+//使用mini和tiny等模型
+
+python bertclf-train-test.py --bert_name bert-base-uncased  --uni_lt cornell texas wisconsin washington  --max_len 256 --batch_siz 8 --lr 5e-6 --num_epoch 10 --test_dt misc 
+//指定使用指定大学作为训练集和测试集
+
+
+python bertclf-train-local.py --local_path ./bert-mini-main --bert_name bert-mini  --uni_lt cornell texas wisconsin washington  misc --max_len 256 --batch_siz 8 --lr 5e-6 --num_epoch 100//指定本地文件作为训练模型，bert_name作为文件保存路径的名称
+
+

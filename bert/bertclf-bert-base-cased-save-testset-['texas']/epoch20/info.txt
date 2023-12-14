@@ -1,0 +1,12 @@
+Hyperparameter settings:
+['--bert_name', 'bert-base-cased', '--uni_lt', 'cornell', 'misc', 'wisconsin', 'washington', '--max_len', '256', '--batch_siz', '8', '--lr', '5e-6', '--num_epoch', '20', '--test_dt', 'texas']
+
+Splitting statistical info:
+[train set] student: 1120 | faculty:  808 | project:  363 | course:  669 | staff:    0 | total: 2960
+[  val set] student:  373 | faculty:  270 | project:  121 | course:  223 | staff:    0 | total: 987
+[ test set] student:  148 | faculty:   46 | project:   20 | course:   38 | staff:    0 | total: 252
+total size = 4199
+
+
+End with
+mx_train_acc=0.990878, mx_val_acc=0.970766, test_acc=0.960938
