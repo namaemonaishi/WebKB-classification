@@ -14,7 +14,7 @@
 
 * The method to manually download the BERT model is as follows: Go to the [huggingface.co/models](https://huggingface.co/models) website and manually download the desired model. Save it locally. Then, run bertclf-train-local.py, making sure to use the '`local_path`' parameter to specify the location where the model is saved. In the downloaded file, the red-highlighted parts are required, while the green-highlighted parts are optional and can be selected between the two options.
 
-  ![img](./1.jpg)
+  ![img](.\1.jpg)
 
   
 
